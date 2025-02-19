@@ -20,7 +20,6 @@ button {
     font-family: inherit;
     width: 100px;
     height: 28px;
-
 }
 
 /* Header */
@@ -67,9 +66,18 @@ button {
 .hero-content-container {
     width: 1000px;
     display: flex;
-    justify-content: space-between
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+    flex: 1 1 auto;
+}
 
 .hero-text h1 {
     font-size: 48px;
@@ -77,9 +85,19 @@ button {
     font-weight: 900px;
 }
 
+.hero-image {
+    max-width: 450px;
+    flex: 1 2 auto;
+}
+
 .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-button {
+    border: none;
+    margin-top: 10px;
 }
 
 /* Information Content */
