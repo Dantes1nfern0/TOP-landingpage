@@ -12,7 +12,15 @@
 }
 
 button {
-    
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: 500;
+    font-family: inherit;
+    width: 100px;
+    height: 28px;
+
 }
 
 /* Header */
