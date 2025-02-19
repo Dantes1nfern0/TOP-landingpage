@@ -193,15 +193,21 @@ button {
     width: 900px;
     background: #3882F6;
     border-radius: 5px;
-    padding: 40px 80px;
+    padding: 40px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .call-to-action {
     margin-right: auto;
     color: #E5E7EB;
+}
+
+.call-to-action-button {
+    flex: 0 0 auto;
 }
 
 /* Footer */
